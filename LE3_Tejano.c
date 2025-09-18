@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char name[50];
-    char section[20];
+    char name;
+    char section;
     float num1, num2;
 
     // Input name and section
@@ -30,4 +30,5 @@ int main() {
     printf("%.0f / %.0f = %.2f\n", num1, num2, num1 / num2);
 
     return 0;
+
 }
