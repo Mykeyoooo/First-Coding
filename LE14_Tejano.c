@@ -26,12 +26,13 @@ int main () {
         printf("Enter Section: ");
         fgets(section, sizeof(section), stdin);
         
-        fprintf(fp, "ID NUMBER: %D\nComplete Name: %sSection: %s", id, name, section);
+        fprintf(fp, "ID NUMBER: %d\nComplete Name: %sSection: %s", id, name, section);
         printf("Add another student? [Enter 1 for Yes, 0 for No]: ");
         scanf("%d", &choice);
-        printf("Record added and saves successfull");
+        printf("Record added and saves successfull\n");
         
         }
         fclose(fp);
         return 0;
+
 }
